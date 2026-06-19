@@ -43,9 +43,12 @@ Have any feedback or questions? [Create a discussion](https://github.com/TwiN/ga
 - [Features](#features)
 - [Usage](#usage)
 - [Configuration](#configuration)
+- [Configuration](#configuration-1)
   - [Endpoints](#endpoints)
   - [External Endpoints](#external-endpoints)
   - [Suites (ALPHA)](#suites-alpha)
+    - [Using Context in Endpoints](#using-context-in-endpoints)
+    - [Example Suite Configuration](#example-suite-configuration)
   - [Conditions](#conditions)
     - [Placeholders](#placeholders)
     - [Functions](#functions)
@@ -74,8 +77,8 @@ Have any feedback or questions? [Create a discussion](https://github.com/TwiN/ga
     - [Configuring Matrix alerts](#configuring-matrix-alerts)
     - [Configuring Mattermost alerts](#configuring-mattermost-alerts)
     - [Configuring Messagebird alerts](#configuring-messagebird-alerts)
-    - [Configuring n8n alerts](#configuring-n8n-alerts)
     - [Configuring New Relic alerts](#configuring-new-relic-alerts)
+    - [Configuring n8n alerts](#configuring-n8n-alerts)
     - [Configuring Ntfy alerts](#configuring-ntfy-alerts)
     - [Configuring Opsgenie alerts](#configuring-opsgenie-alerts)
     - [Configuring PagerDuty alerts](#configuring-pagerduty-alerts)
@@ -245,6 +248,8 @@ subdirectories are merged like so:
 > See [Use environment variables in config files](#use-environment-variables-in-config-files) or [examples/docker-compose-postgres-storage/config/config.yaml](.examples/docker-compose-postgres-storage/config/config.yaml) for examples.
 
 If you want to test it locally, see [Docker](#docker).
+
+[Gatus Configuration Reference](docs/config/reference.md) documents all configuration options.
 
 
 ## Configuration
